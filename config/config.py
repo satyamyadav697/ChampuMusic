@@ -56,7 +56,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", 6399386263).split())
+    map(int, getenv("OWNER_ID", 6015256244).split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -67,7 +67,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheChampu/ChampuMusic",
+    "https://github.com/satyamyadav697/ChampuMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
