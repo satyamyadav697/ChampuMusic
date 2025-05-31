@@ -8,14 +8,14 @@ load_dotenv()
 
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("23270378"))
+API_HASH = getenv("1adf3dfe84699547757a5f2e4cb84d3a")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7663438277:AAFyOHh6ewvsuDdwRzH71mL8DE9cTHzLCso")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "None)
+BOT_USERNAME = getenv("Auramusic_robot" , "None)
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
